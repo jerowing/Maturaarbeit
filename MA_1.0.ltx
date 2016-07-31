@@ -1,14 +1,22 @@
 \documentclass[a4paper,11pt]{article} %Papiergrösse, Schriftgrösse, Art des Dokuments
+
 \usepackage[ngerman]{babel} % deutsche Silbentrennug
 \usepackage[latin1]{inputenc} %für die deutschen Umlaute
-\usepackage{exscale}	
-\usepackage{color}		%Farben
 \usepackage{amsmath} 	%mathematische Formeln
 \usepackage{amssymb}	 %mathematische Symbole
 \usepackage{graphicx}	%Grafiken importieren
-\usepackage{pdfpages} 	%PDF import
-\usepackage{sidecap}
-\usepackage{ulem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{14pt} 
+\fancyhf{}
+\fancyhead[C]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+
+%create links in the pdf
+\usepackage[colorlinks]{hyperref}
+
+%\usepackage{pdfpages} 	%PDF import
+%\usepackage{sidecap}
 \author{Jérôme Landtwing}
 
 	
@@ -66,7 +74,7 @@ Vorgehen  \\
 \item Aufbau der Übungsblättern / Tests
 \end{itemize}
 
-\section{Vermittlung der einzelnen Inhalte}
+\section{Didaktische Theorie}
 \input{vermittlung}
 %%
 

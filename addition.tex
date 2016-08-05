@@ -7,7 +7,6 @@ Bei einer Addition werden zwei oder mehr Zahlen zusammengezählt. Formal wird ein
 Da ich mich in meiner Arbeit mit dem Rechnen im Kopf befasse und meine Probanden die Oberstufe besuchen, setze ich die Kenntnis der schriftlichen Addition voraus. Deshalb werde ich hier nur kurz im Tiefflug darüberstreifen, um zu repetieren, exerzieren oder aufzufrischen.  \\ Die schriftliche Addition funktioniert folgendermassen: Man schreibt die Zahlen untereinander und beginnt von der Einerstelle sich vorzuarbeiten bis man bei der Stelle mit der grössten Zehnerpotenz angekommen (im Beispiel die Hunderterstelle) ist. Die Rechenrichtung ist von rechts nach links. Ist das Ergebnis in einer Spalte grösser als 10, so wird dies als Übertrag in die nächste Spalte (nächst grössere Zehnerstelle) eingeschrieben. 
 
 \begin{figure}[!h]
-\label{schriftlicheAddition}
 \center
 \begin{tabular}{r r r r r}
 && Hunderter & Zehner & Einer \\ \cline{1-5}
@@ -19,7 +18,7 @@ Da ich mich in meiner Arbeit mit dem Rechnen im Kopf befasse und meine Probanden
  Überträge& + & \textcolor{blue}{1} & \textcolor{green}{1} & \\ \cline{2-5}
  && 3 & 5 & 1 \\ \hline \hline
  \end{tabular}
- \caption{Die schriftliche Addition von 134 + 164 + 53}
+ \caption{Die schriftliche Addition von 134 + 164 + 53  \label{schriftlicheAddition}}
 \end{figure}
 
 \subsubsection{Von rechts nach links}
@@ -39,10 +38,7 @@ Die Summe verändert sich nicht, wenn beim einen Summanden eine Zahl addiert wird
 Die Korrektheit dieses Tricks lässt sich ganz einfach wie folgt beweisen. 
 \begin{equation*} (a+ \textcolor{green}{x}) + (b - \textcolor{green}{x}) = a + b + ( \textcolor{green}{x} - \textcolor{green}{x}) = a + b \end{equation*}
 
-\textcolor{blue}{
-\subsubsection{Die Rädchenmethode\protect\footnote{nach Mittring}} 
-%Eine Methode die hilfreich ist, den Vorgang zu visualisieren. Diese Methode basiert auf einem Rad auf dem die Ziffern von 1 - 10 der Reihe nach aufgelistet sind (siehe Abbildung \ref{rad}). Die Rechenrichtung ist wieder von rechts nach links, also von der Einerstelle hin zur Zehner-, Hunderter-, und Tausenderstelle. Wie bei der schriftlichen Addition zählt man die Werte der jeweiligen Spalte zusammen, in diesem Fall mithilfe des Zählrades. \textcolor{red}{Die Anzeigeposition ist jeweils oben in der Mitte. Man stellt nun das Rad auf den Startwert ein, also den Einerwert der ersten Zahl. Den nächsten Wert addiert man indem man das Rad um so viele Stellen dreht, wie die Zahl die man addieren gross ist.} Schliesslich erhält man einen neuen Wert und kann, sofern eine weitere Zahl addiert werden muss, den selben Schritt nochmals von vorne machen. Die Richtung für die Addition ist für das Rad in Abbildung \ref{rad} im Uhrzeigersinn. Wichtig ist, dass sobald man die Zehn überquert, sich merkt, dass ein Überschlag entstanden ist und diesen bei der Berechnung der nächsten Zeile berücksichtigt indem man ihn addiert.
- Beispiel anfügen.}
+%\textcolor{blue}{ \subsubsection{Die Rädchenmethode\protect\footnote{nach Mittring}}  Eine Methode die hilfreich ist, den Vorgang zu visualisieren. Diese Methode basiert auf einem Rad auf dem die Ziffern von 1 - 10 der Reihe nach aufgelistet sind (siehe Abbildung \ref{rad}). Die Rechenrichtung ist wieder von rechts nach links, also von der Einerstelle hin zur Zehner-, Hunderter-, und Tausenderstelle. Wie bei der schriftlichen Addition zählt man die Werte der jeweiligen Spalte zusammen, in diesem Fall mithilfe des Zählrades. \textcolor{red}{Die Anzeigeposition ist jeweils oben in der Mitte. Man stellt nun das Rad auf den Startwert ein, also den Einerwert der ersten Zahl. Den nächsten Wert addiert man indem man das Rad um so viele Stellen dreht, wie die Zahl die man addieren gross ist.} Schliesslich erhält man einen neuen Wert und kann, sofern eine weitere Zahl addiert werden muss, den selben Schritt nochmals von vorne machen. Die Richtung für die Addition ist für das Rad in Abbildung \ref{rad} im Uhrzeigersinn. Wichtig ist, dass sobald man die Zehn überquert, sich merkt, dass ein Überschlag entstanden ist und diesen bei der Berechnung der nächsten Zeile berücksichtigt indem man ihn addiert. Beispiel anfügen.}
 
 %\begin{figure}[!h]
 %\centering
@@ -50,6 +46,5 @@ Die Korrektheit dieses Tricks lässt sich ganz einfach wie folgt beweisen.
 %\caption{Verbildlichung der Rädchenmethode}
 %\label{rad}
 %\end{figure}
-\textcolor{blue}{
-\subsubsection{Aufrunden\protect\footnote{nach Mittring}}}
+%\textcolor{blue}{ \subsubsection{Aufrunden\protect\footnote{nach Mittring}}}
 %Diese Methode ist eine Methode die vor allem im Alltag ihre Anwendung findet. Man braucht sie hauptsächlich um eine Überschlagsrechnung anzustellen. Die Methode funktioniert folgendermassen. Wir stellen uns einen Rundgang durch den Einkaufsmarkt vor. Ich lege nacheinander einen Bund Tomaten für 3.95CHF, ein Yoghurt für 0.95CHF, eine Tafel Schokolade für 1.35CHF und eine Flasche Champagner für 9.95 in meinen Einkaufswagen. Ich möchte überprüfen ob, das was die Kassiererin berechnet stimmt, deshalb überschlage ich die Kosten für meinen Einkauf im Kopf: Ich könnte die genauen Preise addieren, jedoch würden die vielen Kommastellen mein Gedächtnis stark beanspruchen, deshalb wenden wir einen kleinen Trick an und runden die Preise auf den nächstgelegenen schönen Betrag (je nach dem wie genau die Überschlagsrechnung sein soll). Damit ich die Zahlen leichter im Kopf addieren kann, zähle ich bei allen 5 Rappen hinzu, also zähle ich: $4 + 1 + 1.40 + 10 = 16.40$ zusammen. Da ich jedoch das genaue Resultat wissen möchte, überlege ich wie viel mal ich 5 Rappen dazugezählt habe. Es sind 4 Mal, damit ich den genauen Betrag erhalte, ziehe ich diesen Betrag also 4 Mal 5 Rappen (= 20 Rappen) vom Endergebnis ab: $16.40 - 0.20 = 16.20$ Und siehe da, an der Kasse muss ich exakt 16.20 Franken bezahlen. \\ Die Zahlen, die man zusammenzählen will, auf schöne Beträge runden für eine Überschlagsrechnung. Will man am Schluss das genaue Ergebnis, so muss man den Betrag den man dazugezählt hat wieder abzählen. }

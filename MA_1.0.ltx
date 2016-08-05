@@ -5,6 +5,8 @@
 \usepackage{amsmath} 	%mathematische Formeln
 \usepackage{amssymb}	 %mathematische Symbole
 \usepackage{graphicx}	%Grafiken importieren
+
+%% Kopfzeile
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \setlength{\headheight}{14pt} 
@@ -15,15 +17,22 @@
 %create links in the pdf
 \usepackage[colorlinks]{hyperref}
 
-%\usepackage{pdfpages} 	%PDF import
-%\usepackage{sidecap}
-\author{Jérôme Landtwing}
+%Literaturverzeichnis nach APA-Regeln
+\usepackage{apacite}
+\bibliographystyle{apacite}
 
-	
+
+\author{Jérôme Landtwing}
+%%
+%%
+
+
+
 \title{\textsc{\Huge{Freude am Kopfrechnen vermitteln} \\ \Large{Eine Unterrichtseinheit planen, mit dem Ziel Oberstufenschülern Freude am Kopfrechen zu vermitteln}}\\~\\ \large{eine Maturaarbeit von }}
 
 
 \begin{document}
+
 \begin{titlepage}
 \maketitle
 \thispagestyle{empty}
@@ -74,7 +83,6 @@ Vorgehen  \\
 \item Aufbau der Übungsblättern / Tests
 \end{itemize}
 
-\section{Didaktische Theorie}
 \input{vermittlung}
 %%
 
@@ -85,4 +93,18 @@ Vorgehen  \\
 
 %%
 \section{Schlusswort}
+%%Literaturverzeichnis
+Mit \textbackslash cite \{mittring2015\} entsteht folgender Eintrag \cite{mittring2015} \\
+Mit \textbackslash citeA \{Schl\"usselwort\} entsteht folgender Eintrag \cite{mittring2011} \\
+
+Test \cite{mittring2013} \\ 
+Test \cite{landwehr1997} \\ 
+Test \cite{dambeck2013} \\ 
+Test \cite{dambeck2012} 
+\cite{meyer}
+
+\bibliographystyle{plain}
+\bibliography{literaturliste_MA}
+
+
 \end{document}

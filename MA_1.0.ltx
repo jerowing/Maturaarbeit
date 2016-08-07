@@ -43,16 +43,10 @@
 \pagenumbering{arabic} %Startet Seitennummerierung neu von hier.
 
 %%
-\section{Vorwort}
-\begin{itemize}
-	\item Weshalb habe ich dieses Thema gewählt: Freude an Mathematik, Freude weitergeben, evtl. Absicht später im Lehrerberuf tätig zu sein
-	\item Mir fällt es leicht, mit Zahlen zu jonglieren, Mathematik hat mich von klein auf begeistert, möchte mein Wissen, meine Freude weitergeben! 
-	\item Meist verlieren junge Menschen die Lust am Kopfrechnen, an der Mathematik weil sie überfordert werden, Aufgaben nur nach Schema XY lösen müssen.
-\end{itemize} \textsc{DANKSAGUNGEN: }
-
-
+\input{vorwort}
 %%
-\section{Abstract} Kurzzusammenfassung $\rightarrow$ am Schluss schreiben. 1 A4 Seite
+\textbackslash input \{abstract \}
+Kurzzusammenfassung $\rightarrow$ am Schluss schreiben. 1 A4 Seite
 
 %%
 \section{Einleitung}
@@ -68,14 +62,11 @@
 
 %%
 \section{Material und Methoden}
-Vorgehen  \\ 
 \input{inhalt}
 \input{addition}
 \input{subtraktion}
 \input{multiplikation}
-\input{division}
-%\input{durchführung}
-%\input{auswertung}
+
 \begin{itemize}
 \item Lektionen weshalb?
 \item Weshalb ein grosses Arsenal an Werkzeugen -> Damit die Schüler eigene Lösungswege suchen können und diese weiterentwickeln können.
@@ -85,12 +76,12 @@ Vorgehen  \\
 
 \input{vermittlung}
 %%
+\input{durchfuehrung}
+\input{auswertung}
 
 \section{Ergebnisse}
-
 %%
 \section{Diskussion der Ergebnisse}
-
 %%
 \section{Schlusswort}
 %%Literaturverzeichnis

@@ -5,6 +5,7 @@
 \usepackage{amsmath} 	%mathematische Formeln
 \usepackage{amssymb}	 %mathematische Symbole
 \usepackage{graphicx}	%Grafiken importieren
+%\usepackage{psfrag}
 
 %% Kopfzeile
 \usepackage{fancyhdr}
@@ -45,7 +46,8 @@
 %%
 \input{vorwort}
 %%
-\textbackslash input \{abstract \}
+\\ \\
+\textbackslash input\{abstract \}
 Kurzzusammenfassung $\rightarrow$ am Schluss schreiben. 1 A4 Seite
 
 %%
@@ -92,7 +94,8 @@ Test \cite{mittring2013} \\
 Test \cite{landwehr1997} \\ 
 Test \cite{dambeck2013} \\ 
 Test \cite{dambeck2012} 
-\cite{meyer}
+\cite{meyer} \\ \cite{krauthausen_scherer_2014}
+Sekundarzitat \citeA[zitiert nach \citeNP{radatz}, S.~180]{krauthausen_scherer_2014}
 
 \bibliographystyle{plain}
 \bibliography{literaturliste_MA}

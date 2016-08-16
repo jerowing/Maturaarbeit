@@ -19,7 +19,7 @@ Dambeck, H.%
 \newblock
 \APACrefbtitle {Je mehr L{\"o}cher, desto weniger K{\"a}se - Mathematik
   verbl{\"u}ffend einfach} {Je mehr l{\"o}cher, desto weniger k{\"a}se -
-  mathematik verbl{\"u}ffend einfach}\ (\PrintOrdinal{5. Aufl.}\ \BEd).
+  mathematik verbl{\"u}ffend einfach}\ (\PrintOrdinal{5.}\ \BEd).
 \newblock
 \APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
 \PrintBackRefs{\CurrentBib}
@@ -43,9 +43,35 @@ Dambeck, H.%
 \newblock
 \APACrefbtitle {Nullen machen Einsen gro{\ss} - Mathe-Tricks f{\"u}r alle
   Lebenslagen} {Nullen machen einsen gro{\ss} - mathe-tricks f{\"u}r alle
-  lebenslagen}\ (\PrintOrdinal{1. Aufl.}\ \BEd).
+  lebenslagen}\ (\PrintOrdinal{1.}\ \BEd).
 \newblock
 \APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krauthausen%
+\ \BBA {} Scherer%
+}{%
+Krauthausen%
+\ \BBA {} Scherer%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+krauthausen_scherer_2014}
+\APACinsertmetastar {%
+krauthausen_scherer_2014}%
+\begin{APACrefauthors}%
+Krauthausen, G.%
+\BCBT {}\ \BBA {} Scherer, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Einf{\"u}hrung in die Mathematikdidaktik} {Einf{\"u}hrung in
+  die mathematikdidaktik}\ (\PrintOrdinal{3.}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Springer Spektrum}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -70,8 +96,8 @@ Landwehr, N.%
   (Berufsschulen, Gymnasien) sowie in der Lehrer- und Erwachsenenbildung} {Neue
   wege der wissensvermittlung: ein praxisorientiertes handbuch f{\"u}r
   lehrpersonen im bereich der sekundarstufen i und ii (berufsschulen,
-  gymnasien) sowie in der lehrer- und erwachsenenbildung}\ (\PrintOrdinal{3.
-  Aufl}\ \BEd).
+  gymnasien) sowie in der lehrer- und erwachsenenbildung}\ (\PrintOrdinal{3.}\
+  \BEd).
 \newblock
 \APACaddressPublisher{}{Verlag f{\"u}r Berufsbildung, Sauerl{\"a}nder}.
 \PrintBackRefs{\CurrentBib}
@@ -99,7 +125,7 @@ Meyer, R.%
 \APACaddressPublisher{}{Airbowis}.
 \newblock
 \begin{APACrefURL}
-  \url{http://arbowis.ch/index.php/67-2014/erwachsenenbildung/unterrichtsplanung/phasenmodelle/42-aitus-5-phasen-unterrichtsaufbau}
+  [{4.8.2016}]\url{http://arbowis.ch/index.php/67-2014/erwachsenenbildung/unterrichtsplanung/phasenmodelle/42-aitus-5-phasen-unterrichtsaufbau}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -175,6 +201,30 @@ Mittring, G.%
   - neues vom rechenweltmeister}.
 \newblock
 \APACaddressPublisher{}{Fischer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Radatz%
+\ \protect \BOthers {.}}{%
+Radatz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1998}}%
+}]{%
+radatz}
+\APACinsertmetastar {%
+radatz}%
+\begin{APACrefauthors}%
+Radatz, H.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {Handbuch f{\"u}r den Mathematikunterricht - 1./2./3. Schuljahr}
+  {Handbuch f{\"u}r den mathematikunterricht - 1./2./3. schuljahr}.
+\newblock
+\APACaddressPublisher{}{Hannover}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{article} %Papiergrösse, Schriftgrösse, Art des Dokuments
 
+\usepackage{subcaption}
 \usepackage[ngerman]{babel} % deutsche Silbentrennug
 \usepackage[latin1]{inputenc} %für die deutschen Umlaute
 \usepackage{amsmath} 	%mathematische Formeln
@@ -89,14 +90,9 @@ Kurzzusammenfassung $\rightarrow$ am Schluss schreiben. 1 A4 Seite
 %%Literaturverzeichnis
 Mit \textbackslash cite \{mittring2015\} entsteht folgender Eintrag \cite{mittring2015} \\
 Mit \textbackslash citeA \{Schl\"usselwort\} entsteht folgender Eintrag \cite{mittring2011} \\
-
-Test \cite{mittring2013} \\ 
-Test \cite{landwehr1997} \\ 
-Test \cite{dambeck2013} \\ 
-Test \cite{dambeck2012} 
-\cite{meyer} \\ \cite{krauthausen_scherer_2014}
-Sekundarzitat \citeA[zitiert nach \citeNP{radatz}, S.~180]{krauthausen_scherer_2014}
-
+\newpage 
+\section{Nützliches}
+Sekundärzitat \citeA[zitiert nach \citeNP{radatz}, S.~180]{krauthausen_scherer_2014}
 \bibliographystyle{plain}
 \bibliography{literaturliste_MA}
 

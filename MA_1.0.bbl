@@ -1,6 +1,24 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Boxplot}}{%
+\APACcitebtitle {Boxplot}}{%
+{\protect \APACyear {2016}}%
+}]{%
+wikipedia}
+\APACinsertmetastar {%
+wikipedia}%
+\APACrefbtitle {Boxplot.} {Boxplot.}
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACaddressPublisher{}{Wikimedia Foundation}.
+\newblock
+\begin{APACrefURL} [{20.8.2016}]\url{https://de.wikipedia.org/wiki/boxplot}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dambeck%
 }{%
 Dambeck%
@@ -46,6 +64,34 @@ Dambeck, H.%
   lebenslagen}\ (\PrintOrdinal{1.}\ \BEd).
 \newblock
 \APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kalisch%
+, B{\"u}hlmann%
+\BCBL {}\ \BBA {} K{\"u}nsch%
+}{%
+Kalisch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+statistik}
+\APACinsertmetastar {%
+statistik}%
+\begin{APACrefauthors}%
+Kalisch, M.%
+, B{\"u}hlmann, P.%
+\BCBL {}\ \BBA {} K{\"u}nsch, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{Februar}{}.
+\newblock
+\APACrefbtitle {Statistik 1 f{\"u}r Biologie, Gesundheitswissenschaften und
+  Pharmazeutische Wissenschaften.} {Statistik 1 f{\"u}r biologie,
+  gesundheitswissenschaften und pharmazeutische wissenschaften.}
+\newblock
+\APACrefnote{Nicht offiziell ver{\"o}ffentlicht}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

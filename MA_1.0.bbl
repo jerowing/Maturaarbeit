@@ -1,24 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Boxplot}}{%
-\APACcitebtitle {Boxplot}}{%
-{\protect \APACyear {2016}}%
-}]{%
-wikipedia}
-\APACinsertmetastar {%
-wikipedia}%
-\APACrefbtitle {Boxplot.} {Boxplot.}
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-\APACaddressPublisher{}{Wikimedia Foundation}.
-\newblock
-\begin{APACrefURL} [{20.8.2016}]\url{https://de.wikipedia.org/wiki/boxplot}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Dambeck%
 }{%
 Dambeck%
@@ -38,30 +20,6 @@ Dambeck, H.%
 \APACrefbtitle {Je mehr L{\"o}cher, desto weniger K{\"a}se - Mathematik
   verbl{\"u}ffend einfach} {Je mehr l{\"o}cher, desto weniger k{\"a}se -
   mathematik verbl{\"u}ffend einfach}\ (\PrintOrdinal{5.}\ \BEd).
-\newblock
-\APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Dambeck%
-}{%
-Dambeck%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-dambeck2013}
-\APACinsertmetastar {%
-dambeck2013}%
-\begin{APACrefauthors}%
-Dambeck, H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2013}.
-\newblock
-\APACrefbtitle {Nullen machen Einsen gro{\ss} - Mathe-Tricks f{\"u}r alle
-  Lebenslagen} {Nullen machen einsen gro{\ss} - mathe-tricks f{\"u}r alle
-  lebenslagen}\ (\PrintOrdinal{1.}\ \BEd).
 \newblock
 \APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
 \PrintBackRefs{\CurrentBib}
@@ -197,80 +155,6 @@ Mittring, G.%
   mathematik und ged{\"a}chtnistraining f{\"u}r den alltag}.
 \newblock
 \APACaddressPublisher{Frankfurt am Main}{S. Fischer Verlag}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Mittring%
-}{%
-Mittring%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-mittring2013}
-\APACinsertmetastar {%
-mittring2013}%
-\begin{APACrefauthors}%
-Mittring, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2013}.
-\newblock
-\APACrefbtitle {Fit im Kopf mit Rechenweltmeister Dr. Dr. Mittring -
-  Ged{\"a}chtnistraining f{\"u}r jeden Tag von Kaffeekochen bis
-  Sch{\"a}fchenz{\"a}hlen} {Fit im kopf mit rechenweltmeister dr. dr. mittring
-  - ged{\"a}chtnistraining f{\"u}r jeden tag von kaffeekochen bis
-  sch{\"a}fchenz{\"a}hlen}.
-\newblock
-\APACaddressPublisher{Frankfurt am Main}{S. Fischer Verlag}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Mittring%
-}{%
-Mittring%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-mittring2015}
-\APACinsertmetastar {%
-mittring2015}%
-\begin{APACrefauthors}%
-Mittring, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2015}.
-\newblock
-\APACrefbtitle {Von Pi nach Pisa: mit Zahlen die ganze Welt verstehen - Neues
-  vom Rechenweltmeister} {Von pi nach pisa: mit zahlen die ganze welt verstehen
-  - neues vom rechenweltmeister}.
-\newblock
-\APACaddressPublisher{}{Fischer}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Radatz%
-\ \protect \BOthers {.}}{%
-Radatz%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1998}}%
-}]{%
-radatz}
-\APACinsertmetastar {%
-radatz}%
-\begin{APACrefauthors}%
-Radatz, H.%
-\BCBT {}\ \BOthersPeriod {.}
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1998}.
-\newblock
-\APACrefbtitle {Handbuch f{\"u}r den Mathematikunterricht - 1./2./3. Schuljahr}
-  {Handbuch f{\"u}r den mathematikunterricht - 1./2./3. schuljahr}.
-\newblock
-\APACaddressPublisher{}{Hannover}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

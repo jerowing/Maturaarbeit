@@ -1,12 +1,9 @@
 \documentclass[a4paper,11pt]{article} %Papiergrösse, Schriftgrösse, Art des Dokuments
 
-\usepackage{subcaption}
 \usepackage[ngerman]{babel} % deutsche Silbentrennug
 \usepackage[latin1]{inputenc} %für die deutschen Umlaute
 \usepackage{amsmath} 	%mathematische Formeln
-\usepackage{amssymb}	 %mathematische Symbole
 \usepackage{graphicx}	%Grafiken importieren
-%\usepackage{psfrag}
 
 %% Kopfzeile
 \usepackage{fancyhdr}
@@ -22,7 +19,6 @@
 %Literaturverzeichnis nach APA-Regeln
 \usepackage{apacite}
 \bibliographystyle{apacite}
-
 
 \author{Jérôme Landtwing}
 %%
@@ -52,31 +48,13 @@
 Kurzzusammenfassung $\rightarrow$ am Schluss schreiben. 1 A4 Seite
 
 %%
-\section{Einleitung}
-\begin{itemize}
-	\item Gegenstand der Untersuchung
-	\item	Problemstellung
-	\item Hypothese
-	\item Theorie und Ziel meiner Arbeit
-	\item Eingrenzung des Untersuchungsfeldes
-	\item Ausgangslage Skizzieren
-\end{itemize} 2 A4 Seiten \\
 \input{einleitung}
 
 %%
-\section{Material und Methoden}
 \input{inhalt}
 \input{addition}
 \input{subtraktion}
 \input{multiplikation}
-
-\begin{itemize}
-\item Lektionen weshalb?
-\item Weshalb ein grosses Arsenal an Werkzeugen -> Damit die Schüler eigene Lösungswege suchen können und diese weiterentwickeln können.
-\item Aufbau der Lektion
-\item Aufbau der Übungsblättern / Tests
-\end{itemize}
-
 \input{vermittlung}
 %%
 \input{durchfuehrung}
@@ -89,6 +67,7 @@ Mit \textbackslash cite \{mittring2011\} entsteht folgender Eintrag \cite{mittri
 Mit \textbackslash citeA \{Schl\"usselwort\} entsteht folgender Eintrag \citeA{mittring2011} \\
 \section{Nützliches}
 Sekundärzitat \citeA[zitiert nach \citeNP{mittring2011}, S.~180]{krauthausen_scherer_2014}
+
 \bibliographystyle{plain}
 \bibliography{literaturliste_MA}
 

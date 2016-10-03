@@ -1,39 +1,29 @@
-\\ \\Damit kein Durcheinander entsteht, bespreche und erläutere ich im kommenden Teil nacheinander drei der vier Grundrechenarten und die Tricks, welche für die jeweilige Rechenart angewendet werden können bezüglich der jeweiligen Rechenart. 
-\subsection{Addition}
+\section{Anwendungen}
+Da nun die mathematischen Grundlagen erläutert wurden, möchte ich mit deren Anwendungen weiterfahren und im kommenden Teil nacheinander drei der vier Grundrechenarten besprechen. Ich werde jeweils erklären, wie der Trick funktioniert, wenn nötig eine algebraische Begründung liefern und anschliessend ein Beispiel mit gezeigter Methode lösen.
+\subsection{Anwendungen bei der Addition}
 Bei einer Addition werden zwei oder mehr Zahlen zusammengezählt. Formal wird eine Addition so dargestellt:
 \begin{equation*}  Summand_1 + Summand_2 + Summand_3 + \ldots + Summand_n = Summe \end{equation*} 
-\textcolor{red}{Noch genauer erklären, was genau geschieht? }
 
 \subsubsection{Von rechts nach links}
-Da ich mich in meiner Arbeit mit dem Rechnen im Kopf befasse und meine Probanden die Oberstufe besuchen, setze ich die Kenntnis der schriftlichen Addition voraus. Deshalb werde ich hier nur kurz im Tiefflug darüberstreifen, um zu repetieren, exerzieren oder aufzufrischen.  \\ Die schriftliche Addition funktioniert folgendermassen: Man schreibt die Zahlen untereinander und beginnt bei der Einerstelle, zählt alle Einträge zusammen fährt weiter mit der Zehnerstelle und arbeitet sich so nach links vor, bis man bei der Stelle mit der grössten Zehnerpotenz angekommen (im Beispiel die Hunderterstelle) ist. Die Rechenrichtung ist von rechts nach links. Ist das Ergebnis in einer Spalte grösser als 10, so wird dies als Übertrag in die nächste Spalte (nächst grössere Zehnerstelle) eingeschrieben. \\ \\
+Da ich mich in meiner Arbeit mit dem Rechnen im Kopf befasse und meine Probanden die Oberstufe besuchen, setze ich die Kenntnis der schriftlichen Addition voraus und werde sie hier nicht weiter erläutern.
 
-\begin{figure}[!h]
-\center
-\begin{tabular}{r r r r r}
-&& Hunderter & Zehner & Einer \\ \cline{1-5}
-&& 1 & 3 & 4 \\
-&& 1 & 6 & 4 \\
-&+ & & 5 & 3 \\ \cline{2-5}
- && 2 & \textcolor{blue}{1}4 & \textcolor{green}{1}1 \\ \cline{1-5}
- && 2 & 4 & 1 \\
- Überträge& + & \textcolor{blue}{1} & \textcolor{green}{1} & \\ \cline{2-5}
- && 3 & 5 & 1 \\ \hline \hline
- \end{tabular}
- \caption{Die schriftliche Addition von 134 + 164 + 53  \label{schriftlicheAddition}}
-\end{figure}
-Eine beliebte Methode, bei der man exakt die gleichen Rechenschritte wie bei der schriftlichen Addition durchführt, jedoch ohne sich die Zahlen untereinander aufzuschreiben. Man Rechnet also nach dem gleichen Schema wie in Abbildung \ref{schriftlicheAddition}. Man rechnet jeweils zuerst die Einer aller Summanden zusammen, beachtet die Überschläge und arbeitet sich zur Hunderterstelle vor. Dies ist jedoch eine sehr brachiale Standardmethode, klar führt auch sie ans Ziel, doch muss man sich, und das sei der grosse Nachteil dieser Methode extrem viele Zwischenresultate merken. Ich möchte niemanden der sich diese Methode zu eigen gemacht hat davon abhalten so zu rechnen, jedoch werde ich im folgenden einige Tricks zeigen, mit welchen man solche Rechnungen auf eine andere Weise lösen kann.
+Eine beliebte Methode, bei der man exakt die gleichen Rechenschritte wie bei der schriftlichen Addition durchführt, jedoch ohne sich die Zahlen untereinander aufzuschreiben, nennt sich \emph{von rechts nach links}. Man rechnet jeweils zuerst die Einer aller Summanden zusammen, beachtet die Überschläge und arbeitet sich zur Hunderterstelle vor. Dies ist jedoch eine sehr brachiale Standardmethode. Klar führt auch sie ans Ziel, doch muss man sich, und das sei der grosse Nachteil dieser Methode extrem viele Zwischenresultate merken. Ich möchte niemanden der sich diese Methode zu eigen gemacht hat davon abhalten so zu rechnen, jedoch werde ich im folgenden einige weitere Tricks vorstellen, mit welchen man Additionen auf eine andere Weise lösen kann.
 
+\begin{equation*} 438 + 237 = \text{ ?} \end{equation*}
+Unter Anwendung der Methode \emph{von rechts nach links} zählt man die Einer, Zehner und Hunderter separat zusammen:
+\begin{equation*} \text{Hunderter: } 4 + 2, \text{  Zehner: } 3 + 3, \text{  Einer: } 8 + 7 \end{equation*}
+\begin{equation*} \text{Hunderter: } 6, \text{  Zehner: } 6, \text{  Einer: } 15 = 675\end{equation*} 
 \subsubsection{Gruppen Bilden \label{gruppen}}
-
-Die Definition des Kommutativgesetzes (zu finden auf Seite \pageref{kommutativ} Gleichung \ref{kommutativ}) besagt, dass bei Additionen und Multiplikationen die Reihenfolge der Summanden bzw. Faktoren frei gewählt werden kann. Dies ist vor allem bei Kettenrechnungen ein sehr mächtiges Werkzeug! Am besten ordnet man die einzelnen Glieder einer Kettenrechnung so an, dass man mit dem kleinstmöglichen Aufwand ans Ziel kommt.
-\begin{equation*} 13 + 56 + 34 + 53 = ? \end{equation*}
-Versucht man Gruppen zu bilden, so wird den meisten ins Auge stechen, dass sich die Einerstellen der Zahlen 56 und 34 zusammen auf 10 ergänzen, 56 + 34 also eine runde Zahl (90) ergeben. Wendet man diesen Weg an, so kann man die Rechnung wie folgt vereinfachen: \begin{equation*} (56 + 34) + 13 + 53 = 90 + 13 + 53 = 103 + 53 = 156 \end{equation*}
-Jedoch könnte man auch sehen, dass die Einerstellen der Zahlen 13, 34, 53 sich auch auf 10 ergänzen und die Rechnung wie folgt vereinfachen: \begin{equation*} (13 + 34 + 53) + 56 = 100 + 56  = 156 \end{equation*} Sowohl der erste als auch der zweite Weg sind korrekt, klar könnte man auch im Kopf von Links nach Rechts immer eine Zahl zur nächsten dazu addieren, jedoch entstehen dabei eine Vielzahl an Zwischenschritten / Zwischenresultaten und das wollen wir beim Kopfrechnen vermeiden. Mit diesem Beispiel möchte ich zeigen, dass es viele verschiedene Wege gibt, eine Aufgabe im Kopf zu rechnen. Es gibt dabei weder richtig noch falsch vielmehr sind es verschiedene Wege. Jeder Schüler soll also seinen eigenen Weg finden, der für ihn am logischsten erscheint.
+Bei Additionen und Multiplikationen darf die Reihenfolge der Summanden bzw. Faktoren frei gewählt werden. Dies ist vor allem bei Kettenrechnungen ein sehr mächtiges Werkzeug! Am besten ordnet man die einzelnen Glieder einer Kettenrechnung so an, dass man mit dem kleinstmöglichen Aufwand ans Ziel kommt. Diese Aussage geht auf das Kommutativgesetz (zu finden im Kapitel \ref{kommutativ}) zurück.
+\begin{equation*} 13 + 56 + 34 + 53 = \text{ ?} \end{equation*}
+Versucht man Gruppen zu bilden, so wird vielen Leuten auffallen, dass sich die Einerstellen der Zahlen 56 und 34 zusammen auf 10 ergänzen, 56 + 34 also eine runde Zahl (90) ergeben. Wendet man diesen Weg an, so kann man die Rechnung wie folgt vereinfachen: \begin{equation*} (56 + 34) + 13 + 53 = 90 + 13 + 53 = 103 + 53 = 156 \end{equation*}
+Jedoch könnte man auch sehen, dass die Einerstellen der Zahlen 13, 34, 53 sich auch auf 10 ergänzen und die Rechnung wie folgt vereinfachen: \begin{equation*} (13 + 34 + 53) + 56 = 100 + 56  = 156 \end{equation*} Sowohl der erste als auch der zweite Weg sind korrekt, klar könnte man auch im Kopf von Links nach Rechts immer eine Zahl zur nächsten addieren, jedoch entstehen dabei eine Vielzahl an Zwischenschritten / Zwischenresultaten und das wollen wir beim Kopfrechnen vermeiden. Mit diesem Beispiel möchte ich zeigen, dass es viele verschiedene Wege gibt, eine Aufgabe im Kopf zu rechnen. Es gibt dabei weder richtig noch falsch, vielmehr sind es verschiedene Wege. Jeder Schüler soll also seinen eigenen Weg finden, der für ihn am logischsten erscheint.
 
 \subsubsection{Hinüberschieben} \label{hinuberschieben}
-Die Summe verändert sich nicht, wenn beim einen Summanden eine Zahl addiert wird, wenn man beim anderen Summanden die selbe Zahl wieder abzieht. Diesen Trick ist sehr hilfreich um Zehnerübergänge zu vermeiden. Man vermeidet den Zehnerübergang indem man die eine Zahl zu einer Zehnerzahl ergänzt bzw. reduziert. Dadurch führt man nicht einen Zehnerschritt im eigentlichen Sinne aus, sondern macht den Schritt zum vollen Zehner. Ein ganz banales Beispiel hierfür ist die Addition von 99. Was ergibt 23 + 99. In diesem Beispiel lohnt es sich $(23-1) + (99+1)$ zu rechnen, also $22 + 100 = 122$ 
-Die Korrektheit dieses Tricks lässt sich ganz einfach wie folgt beweisen. 
-\begin{equation*} (a+ \textcolor{green}{x}) + (b - \textcolor{green}{x}) = a + b + ( \textcolor{green}{x} - \textcolor{green}{x}) = a + b \end{equation*}
+Die Summe verändert sich nicht, wenn beim einen Summanden eine Zahl addiert wird, wenn man beim anderen Summanden die selbe Zahl wieder abzieht. Diesen Trick ist sehr hilfreich um Zehnerübergänge zu vermeiden. Man vermeidet den Zehnerübergang indem man die eine Zahl zu einer Zehnerzahl ergänzt bzw. reduziert. Dadurch führt man nicht einen Zehnerschritt im eigentlichen Sinne aus, sondern macht den Schritt zum vollen Zehner. Die Korrektheit dieses Tricks lässt sich ganz einfach wie folgt verallgemeinern
+\begin{equation*} (a+ x) + (b - x) = a + b + ( x - x) = a + b \end{equation*}
+Ein ganz banales Beispiel hierfür ist die Addition von 99. Was ergibt \begin{equation*} 23 + 99 =\text{ ?} \end{equation*} In diesem Beispiel lohnt es sich einen Einer von 23 zu 99 hinüberzuschieben. Also die Rechnung wie folgt umzuformen, was uns schlussendlich zu einer Rechnung bringt, die einfach im Kopf zu rechnen ist. \begin{equation*}23 + 99 = (23-1) + (99+1) = 22 + 100 = 122 \end{equation*}
+
 
 %\textcolor{blue}{ \subsubsection{Die Rädchenmethode\protect\footnote{nach Mittring}}  Eine Methode die hilfreich ist, den Vorgang zu visualisieren. Diese Methode basiert auf einem Rad auf dem die Ziffern von 1 - 10 der Reihe nach aufgelistet sind (siehe Abbildung \ref{rad}). Die Rechenrichtung ist wieder von rechts nach links, also von der Einerstelle hin zur Zehner-, Hunderter-, und Tausenderstelle. Wie bei der schriftlichen Addition zählt man die Werte der jeweiligen Spalte zusammen, in diesem Fall mithilfe des Zählrades. \textcolor{red}{Die Anzeigeposition ist jeweils oben in der Mitte. Man stellt nun das Rad auf den Startwert ein, also den Einerwert der ersten Zahl. Den nächsten Wert addiert man indem man das Rad um so viele Stellen dreht, wie die Zahl die man addieren gross ist.} Schliesslich erhält man einen neuen Wert und kann, sofern eine weitere Zahl addiert werden muss, den selben Schritt nochmals von vorne machen. Die Richtung für die Addition ist für das Rad in Abbildung \ref{rad} im Uhrzeigersinn. Wichtig ist, dass sobald man die Zehn überquert, sich merkt, dass ein Überschlag entstanden ist und diesen bei der Berechnung der nächsten Zeile berücksichtigt indem man ihn addiert. Beispiel anfügen.}
 

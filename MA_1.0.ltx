@@ -4,7 +4,8 @@
 \usepackage[latin1]{inputenc} %für die deutschen Umlaute
 \usepackage{amsmath} 	%mathematische Formeln
 \usepackage{graphicx}	%Grafiken importieren
-\usepackage{float}
+\usepackage{float} %Grafiken fixieren
+\usepackage{pdfpages} %anhänge importieren
 
 %% Kopfzeile
 \usepackage{fancyhdr}
@@ -64,5 +65,8 @@ Sekundärzitat \citeA[zitiert nach \citeNP{mittring2011}, S.~180]{krauthausen_sch
 
 \bibliographystyle{plain}
 \bibliography{literaturliste_MA}
-
+\section{Anhänge}
+\includepdf[pages=-]{diagramme/MA_AB_alle} %%Arbeitsblätter
+\includepdf[pages=-]{diagramme/auswertung_anhang_kl1}
+\includepdf[pages=-]{diagramme/auswertung_anhang_kl2}
 \end{document}

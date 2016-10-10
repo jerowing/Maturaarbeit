@@ -133,28 +133,4 @@ Meyer, R.%
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Mittring%
-}{%
-Mittring%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-mittring2011}
-\APACinsertmetastar {%
-mittring2011}%
-\begin{APACrefauthors}%
-Mittring, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2011}.
-\newblock
-\APACrefbtitle {Rechnen mit dem Weltmeister - Mathematik und
-  Ged{\"a}chtnistraining f{\"u}r den Alltag} {Rechnen mit dem weltmeister -
-  mathematik und ged{\"a}chtnistraining f{\"u}r den alltag}.
-\newblock
-\APACaddressPublisher{Frankfurt am Main}{S. Fischer Verlag}.
-\PrintBackRefs{\CurrentBib}
-
 \end{thebibliography}

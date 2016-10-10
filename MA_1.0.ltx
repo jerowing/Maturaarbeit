@@ -6,6 +6,41 @@
 \usepackage{graphicx}	%Grafiken importieren
 \usepackage{float} %Grafiken fixieren
 \usepackage{pdfpages} %anhänge importieren
+\usepackage[colorlinks]{hyperref}%create links in the pdf
+
+%%Abbildungsverzeichnis
+\newlength{\largNum}
+
+\newlength{\tocRightMargin}
+\setlength{\tocRightMargin}{2cm}
+
+\newlength{\tocLeftMarginSecondLineFigure}
+\setlength{\tocLeftMarginSecondLineFigure}{6.5em}
+
+\makeatletter
+\renewcommand*\l@figure[2]{%
+  \settowidth{\largNum}{\hss #2}
+  \ifnum \c@tocdepth >\m@ne%
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@%
+    \setlength\@tempdima{3.4em}%
+        \noindent%
+    \begingroup
+      \pretolerance=10000
+      \parindent \z@ \rightskip \tocRightMargin%
+      \parfillskip -\tocRightMargin%
+     \leavevmode \normalsize%
+     \advance\leftskip \tocLeftMarginSecondLineFigure%
+      \hskip -\leftskip%
+      {\figurename\mbox{\hspace{4pt}}#1}\nobreak%
+       \leaders\hbox{$\m@th%
+        \mkern \@dotsep mu\hbox{.}\mkern \@dotsep%
+        mu$} \hfil\nobreak\hb@xt@%
+                    \largNum{\hss #2}\par%
+      \penalty\@highpenalty%
+    \endgroup
+  \fi}
+\makeatother
 
 %% Kopfzeile
 \usepackage{fancyhdr}
@@ -15,9 +50,6 @@
 \fancyhead[C]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 
-%create links in the pdf
-\usepackage[colorlinks]{hyperref}
-
 %Literaturverzeichnis nach APA-Regeln
 \usepackage{apacite}
 \bibliographystyle{apacite}
@@ -25,13 +57,8 @@
 \author{Jérôme Landtwing}
 %%
 %%
-
-
-
-%\title{\textsc{\Huge{Freude am Kopfrechnen vermitteln} \\ \Large{Eine Unterrichtseinheit planen, mit dem Ziel Oberstufenschülern Freude am Kopfrechen zu vermitteln}}\\~\\ \large{eine Maturaarbeit von }}
-
-
 \begin{document}
+\addcontentsline{lof}{subsection}{Titelblatt: eigene Darstellung} % fügt zusätzlichen Eintrag für beliebige Grafik ein.
 \input{titelseite_MA}
 \thispagestyle{empty}
 \tableofcontents 
@@ -59,9 +86,20 @@
 \section{Schlusswort}
 %%Literaturverzeichnis
 \bibliographystyle{plain}
-\bibliography{literaturliste_MA}
+\bibliography{literaturliste_MA} 
+
+\addcontentsline{toc}{section}{Abbildungsverzeichnis} % fügt zusätzlichen Eintrag für beliebige Grafik ein.
+\listoffigures 
+\newpage
+
+\addcontentsline{toc}{section}{Eigenstandserklärung} \section*{Eigenstandserklärung}
+Ich erkläre hiermit, dass ich die vorliegende Arbeit selbstständig
+und nur unter Benutzung der angegebenen Quellen verfasst habe und ich
+auf eine eventuelle Mithilfe Dritter in der Arbeit ausdrücklich hinweise. \\ \\ \\ \\
+\hfill\parbox{6cm}{\hrule
+\strut \footnotesize Datum und Unterschrift}
 %%anhänge
-\section{Anhänge}
+\addcontentsline{toc}{section}{Anhänge} \section*{Anhänge}
 \includepdf[pages=-]{diagramme/MA_AB_alle} %%Arbeitsblätter
 \includepdf[pages=-]{diagramme/auswertung_anhang_kl1}
 \includepdf[pages=-]{diagramme/auswertung_anhang_kl2}

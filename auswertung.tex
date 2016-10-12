@@ -13,7 +13,7 @@ Ich werde mich im folgenden Teil den folgenden Mittel und Begriffe bedienen: Box
 %%
 \textbf{Quantil:} Als $\alpha$-Quantil wird der Schwellenwert bezeichnet, bei welchem genau $\alpha$\% der Werte unterhalb und ($100 - \alpha$)\% oberhalb dieser Grenze liegen. Verschiedene Quantile geben Auskunft über die Verteilung der Proben. Ein 25\% Quantil bezeichnet die Stelle, an welcher genau 25\% kleiner sind als dieser Schwellenwert. Der Median ist eigentlich ein Spezialfall eines Quantils ist der Median, welcher eigentlich ein 50\% Quantil ist. \cite[S.~45]{statistik}\\ \\
 %%
-\textbf{Boxplot:} Der Boxplot teilt sich auf in die rechteckige Box und die Antennen, auch Whisker genannt. Innerhalb der Box befindet sich eine Linie, welche den Median bezeichnet, folglich befinden sich 50\% der Werte oberhalb und 50\% der Werte unterhalb dieser Linie. Die Box wird nach oben und unten durch das 75\% respektive 25\% Quartil begrenzt. Was bedeutet, dass genau die Hälfte aller Werte innerhalb der Box liegen. Der restliche Teil des Boxplottes besteht aus dem Whisker, welcher den kleinsten erreichten \emph{normalen} Wert mit der Box verbindet. Als normale Werte werden Werte bezeichnet, welche weniger als das 1.5-fache der Quartilsdifferenz (die Länge der Box) von der Box entfernt sind. Werte, welche weiter als die eineinhalbfache Quartilsdifferenz von der Box entfernt sind, werden als Ausreisser bezeichnet und durch Punkte dargestellt. Werde ich im folgenden Teil von der Streuung sprechen, so beziehe ich mich dabei auf die Quartilsdifferenz.  Ein Boxplot gibt also Auskunft über die Lage und Verteilung der Werte.\\ \\ Wichtig für die Interpretation der Diagramme ist, dass die Aufgaben tendenziell immer schwieriger wurden. Während die Aufgaben der Übungsserie 1, bewusst trivial gewählt wurden,  wurden mit der Zeit immer schwierigere Aufgaben, bei welchen eine einfache Lösung nicht auf den ersten Blick erkennbar war eingestreut. 
+\textbf{Boxplot:} Der Boxplot teilt sich auf in die rechteckige Box und die Antennen, auch Whisker genannt. Innerhalb der Box befindet sich eine Linie, welche den Median bezeichnet, folglich befinden sich 50\% der Werte oberhalb und 50\% der Werte unterhalb dieser Linie. Die Box wird nach oben und unten durch das 75\% respektive 25\% Quartil begrenzt. Was bedeutet, dass genau die Hälfte aller Werte innerhalb der Box liegen. Der restliche Teil des Boxplottes besteht aus dem Whisker, welcher den kleinsten erreichten \emph{normalen} Wert mit der Box verbindet. Als normale Werte werden Werte bezeichnet, welche weniger als das 1.5-fache der Quartilsdifferenz (die Länge der Box) von der Box entfernt sind. Werte, welche weiter als die eineinhalbfache Quartilsdifferenz von der Box entfernt sind, werden als Ausreisser bezeichnet und durch Punkte dargestellt. Werde ich im folgenden Teil von der Streuung sprechen, so beziehe ich mich dabei auf die Quartilsdifferenz.  Ein Boxplot gibt also Auskunft über die Lage und Verteilung der Werte. \cite{statistik}\\ \\ Wichtig für die Interpretation der Diagramme ist, dass die Aufgaben tendenziell immer schwieriger wurden. Während die Aufgaben der Übungsserie 1, bewusst trivial gewählt wurden,  wurden mit der Zeit immer schwierigere Aufgaben, bei welchen eine einfache Lösung nicht auf den ersten Blick erkennbar war eingestreut.
 %%
 \begin{figure}[!h]
 	\centering
@@ -22,14 +22,14 @@ Ich werde mich im folgenden Teil den folgenden Mittel und Begriffe bedienen: Box
 \end{figure}\\ \\
 \textbf{Innerquartilsabstand:} Unter dem Interquartilabstandes (oder auch Quartilsdifferenz) wird die Differenz zwischen dem 75\% und dem 25\% Quartil verstanden. Im Boxplot entspricht diese Grösse der Länge der Box. Dies ist ein alternatives Mass zur Standartabweichung, welches Auskunft über die Streuung gibt.
 
-\subsection{Streuung der Klasse}
+\subsubsection{Streuung der Klasse}
 In Abbildung \ref{vgl_gesamt} ist abgebildet wie viele Aufgaben jeder Schüler nach fünf Arbeitsblättern richtig gelöst hat. Bei dieser Darstellung wurden nur die ersten fünf Arbeitsblätter gewertet, da nur Klasse 1 sechs Arbeitsblätter gelöst hat. \newpage
 \begin{figure}[!h]
 	\centering
 			\includegraphics[width=13cm]{diagramme/quantitaet_vgl}
 		\caption[Eigene Darstellung]{ \label{vgl_gesamt} Gesamthaft richtig gelöste Aufgaben pro Schüler nach 5 Übungsserien}
 \end{figure}
-\subsection{Quantiätsverlauf}
+\subsubsection{Quantiätsverlauf}
 %%
 In Abbildung \ref{ma3_quanti_box} ist die Verteilung der quantitativen Leistungen der Klasse 1 abgebildet. Selbes Diagramm für Klasse 2 findet sich in Abbildung \ref{ma4_quanti_box}. \\Wie sich jeder Schüler der Klasse 1 individuell quantitativ entwickelt hat, ist in Abbildung \ref{ma3_quanti} visuell dargestellt. Die selbige Abbildung für Klasse 2 ist in Abbildung \ref{ma4_quanti} visualisiert.
 \begin{figure}[H]
@@ -51,7 +51,7 @@ In Abbildung \ref{ma3_quanti_box} ist die Verteilung der quantitativen Leistunge
 		\caption[Eigene Darstellung]{\label{ma4_quanti} Quantitätsentwicklung der Klasse 2, dargestellt als Liniendiagramm. Bei Übung 1 war eine Person abwesend, bei Übung 6 fehlten zwei Personen.}
 \end{figure}
 %%
-\subsection{Qualitätsetwicklung}
+\subsubsection{Qualitätsetwicklung}
 Dieser Teil der Auswertung betrachtet den Quotienten zwischen der Anzahl richtig gelösten Aufgaben im Verhältnis zu den falsch gelösten Aufgaben. Der prozentuale Anteil richtig gelöster Aufgaben lässt sich wie folgt errechnen:  \begin{equation*} \frac{\text{Anzahl richtig gelöste Aufgaben}}{\text{Anzahl total gelöste Aufgaben}} \cdot 100\end{equation*}
 Die Abbildungen \ref{ma3_quali} und \ref{ma4_quali} zeigen den Qualitätsverlauf der Klasse 1 respektive Klasse 2. \\ Der Verlauf der medialen Fehlerquote ist in Abbildung \ref{quali_vgl} dargestellt. Hier wurde die Anstelle der prozentual richtig gelösten Aufgaben die prozentual falsch gelösten Aufgaben verwendet. Dieser Wert lässt sich auf die folgenden zwei Arten berechnen: \begin{equation*}\text{Fehlerquote} = 100\% - \text{Prozentsatz richtig gelöste Aufgaben}\end{equation*} oder \begin{equation*} \text{Fehlerquote} = \frac{\text{Anzahl falsch gelöste Aufgaben}}{\text{Anzahl gelöste Aufgaben total}}\end{equation*} Abbildung \ref{quanti_vgl} zeigt den Quantitätsverlauf beider Klassen im Vergleich, gemessen am Median, also \emph{dem} mittleren Schüler
 %%
@@ -79,7 +79,7 @@ Die Abbildungen \ref{ma3_quali} und \ref{ma4_quali} zeigen den Qualitätsverlauf 
 
 
 
-\subsection{Das Unmessbare}
+\subsection{Auswertung meiner Ziele}
 Zum Schluss der Auswertung geht es darum, ob ich meine Ziele erreicht habe oder nicht. Da Werte wie Freude oder Motivation von Person zu Person unterschiedlich aufgefasst werden, ist es beinahe unmöglich solche Werte zuverlässig mit Zahlen zu erfassen und auszudrücken. Deshalb habe ich diese Auswertung aufgrund eines Kreisgespräches erstellt. 
-Rund $\frac{2}{3}$ der Schüler gaben an, dass sie nach dem Projekt motivierter als vorhin an Kopfrechnungsaufgaben herangingen. $\frac{4}{5}$ der Schüler gaben an, neue Techniken erlernt zu haben, der Rest rechnete weiterhin mit bereits zuvor selbst erlernten Methoden. Jeder dritte Schüler stimmte zu, dass er Freude am Kopfrechnen gewonnen hatte. Schlussendlich, und das sei das wichtigste, gaben alle Schüler an, dass sie sich besser zu helfen wussten als zu vor. Mit einigem nachhaken stimmten alle Schüler zu, dass die mathematischen Gesetze nicht nur da sind um Schüler zu plagen, sondern auch nützlich sein können und ausgenutzt werden dürfen. Dass es in der Mathematik darum geht, sich eine möglichst einfache Lösung für ein vorhandenes Problem zu suchen, dem stimmten auch alle Schüler zu.
+Rund $\frac{2}{3}$ der Schüler gaben an, dass sie nach dem Projekt motivierter als vorhin an Kopfrechnungsaufgaben herangingen. $\frac{4}{5}$ der Schüler gaben an, neue Techniken erlernt zu haben, der Rest rechnete weiterhin mit bereits zuvor selbst erlernten Methoden. Jeder dritte Schüler stimmte zu, dass er Freude am Kopfrechnen gewonnen hatte. Schlussendlich, und das sei das wichtigste, gaben alle Schüler an, dass sie sich besser zu helfen wussten als zu vor. Mit einigem nachhaken stimmten alle Schüler zu, dass die mathematischen Gesetze nicht nur da sind um Schüler zu plagen, sondern auch nützlich sein können und ausgenutzt werden dürfen. Dass es in der Mathematik darum geht, sich eine möglichst einfache Lösung für ein vorhandenes Problem zu suchen, dem stimmten auch alle Schüler zu. Ich habe meine Ziele also erreicht.
 

@@ -65,7 +65,9 @@
 \thispagestyle{empty}
 %%
 \setcounter{page}{0}
+\newpage
 \input{vorwort}
+
 %%
 %%
 \input{einleitung}
@@ -97,6 +99,9 @@ auf eine eventuelle Mithilfe Dritter in der Arbeit ausdrücklich hinweise. \\ \\ 
 \strut \footnotesize Datum und Unterschrift}
 %%anhänge
 \addcontentsline{toc}{section}{Anhänge} \section*{Anhänge}
+\includepdf[pages=-]{diagramme/MA_lektion_skript}
+\includepdf[nup=1x2, pages=-]{diagramme/MA_lektion_slides}
+\includepdf[pages=-]{diagramme/MA_theorieblatt}
 \includepdf[pages=-]{diagramme/MA_AB_alle} %%Arbeitsblätter
 \includepdf[pages=-]{diagramme/auswertung_anhang_kl1}
 \includepdf[pages=-]{diagramme/auswertung_anhang_kl2}

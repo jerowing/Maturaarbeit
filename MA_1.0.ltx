@@ -58,13 +58,10 @@
 %%
 %%
 \begin{document}
-\addcontentsline{lof}{subsection}{Titelblatt: eigene Darstellung} % fügt zusätzlichen Eintrag für beliebige Grafik ein.
+\addcontentsline{lof}{subsubsection}{Titelblatt: Eigene Darstellung} % fügt zusätzlichen Eintrag für beliebige Grafik ein.
 \input{titelseite_MA}
-\thispagestyle{empty}
 \tableofcontents
-\thispagestyle{empty}
 %%
-\setcounter{page}{0}
 \newpage
 \input{vorwort}
 
@@ -99,9 +96,13 @@ auf eine eventuelle Mithilfe Dritter in der Arbeit ausdrücklich hinweise. \\ \\ 
 \strut \footnotesize Datum und Unterschrift}
 %%anhänge
 \addcontentsline{toc}{section}{Anhänge} \section*{Anhänge}
-\includepdf[nup=1x2, pages=-]{diagramme/MA_lektion_slides}
-\includepdf[pages=-]{diagramme/MA_theorieblatt}
-\includepdf[pages=-]{diagramme/MA_AB_alle} %%Arbeitsblätter
-\includepdf[pages=-]{diagramme/auswertung_anhang_kl1}
-\includepdf[pages=-]{diagramme/auswertung_anhang_kl2}
+\addcontentsline{toc}{subsection}{Folien aus dem Unterricht} 
+\includepdf[nup=1x2, pages=-, pagecommand = {\thispagestyle{plain}}]{diagramme/MA_lektion_slides}
+\addcontentsline{toc}{subsection}{Theorieblatt} 
+\includepdf[pages=-, pagecommand = {\thispagestyle{plain}}]{diagramme/MA_theorieblatt}
+\addcontentsline{toc}{subsection}{Übungsblätter} 
+\includepdf[pages=-, pagecommand = {\thispagestyle{plain}}]{diagramme/MA_AB_alle} %%Arbeitsblätter
+\addcontentsline{toc}{subsection}{Datentabellen} 
+\includepdf[pages=-, pagecommand = {\thispagestyle{plain}}]{diagramme/auswertung_anhang_kl1}
+\includepdf[pages=-, pagecommand = {\thispagestyle{plain}}]{diagramme/auswertung_anhang_kl2}
 \end{document}

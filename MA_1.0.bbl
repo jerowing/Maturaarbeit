@@ -17,9 +17,9 @@ Dambeck, H.%
 \newblock
 \APACrefYear{2012}.
 \newblock
-\APACrefbtitle {Je mehr L{\"o}cher, desto weniger K{\"a}se - Mathematik
-  verbl{\"u}ffend einfach} {Je mehr l{\"o}cher, desto weniger k{\"a}se -
-  mathematik verbl{\"u}ffend einfach}\ (\PrintOrdinal{5.}\ \BEd).
+\APACrefbtitle {{Je mehr L{\"o}cher, desto weniger K{\"a}se - Mathematik
+  verbl{\"u}ffend einfach}} {{Je mehr L{\"o}cher, desto weniger K{\"a}se -
+  Mathematik verbl{\"u}ffend einfach}}\ (\PrintOrdinal{5.}\ \BEd).
 \newblock
 \APACaddressPublisher{K{\"o}ln}{Kiepenheuer \& Witsch}.
 \PrintBackRefs{\CurrentBib}
@@ -45,11 +45,11 @@ Kalisch, M.%
 \newblock
 \APACrefYearMonthDay{2016}{Februar}{}.
 \newblock
-\APACrefbtitle {Statistik 1 f{\"u}r Biologie, Gesundheitswissenschaften und
-  Pharmazeutische Wissenschaften.} {Statistik 1 f{\"u}r biologie,
-  gesundheitswissenschaften und pharmazeutische wissenschaften.}
+\APACrefbtitle {{Statistik 1 f{\"u}r Biologie, Gesundheitswissenschaften und
+  Pharmazeutische Wissenschaften}.} {{Statistik 1 f{\"u}r Biologie,
+  Gesundheitswissenschaften und Pharmazeutische Wissenschaften}.}
 \newblock
-\APACrefnote{Nicht offiziell ver{\"o}ffentlicht}
+\APACrefnote{Nicht {\"o}ffentlich publiziert}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -72,8 +72,8 @@ Krauthausen, G.%
 \newblock
 \APACrefYear{2014}.
 \newblock
-\APACrefbtitle {Einf{\"u}hrung in die Mathematikdidaktik} {Einf{\"u}hrung in
-  die mathematikdidaktik}\ (\PrintOrdinal{3.}\ \BEd).
+\APACrefbtitle {{Einf{\"u}hrung in die Mathematikdidaktik}} {{Einf{\"u}hrung in
+  die Mathematikdidaktik}}\ (\PrintOrdinal{3.}\ \BEd).
 \newblock
 \APACaddressPublisher{}{Springer Spektrum}.
 \PrintBackRefs{\CurrentBib}
@@ -95,12 +95,12 @@ Landwehr, N.%
 \newblock
 \APACrefYear{1997}.
 \newblock
-\APACrefbtitle {Neue Wege der Wissensvermittlung: ein praxisorientiertes
+\APACrefbtitle {{Neue Wege der Wissensvermittlung: ein praxisorientiertes
   Handbuch f{\"u}r Lehrpersonen im Bereich der Sekundarstufen I und II
-  (Berufsschulen, Gymnasien) sowie in der Lehrer- und Erwachsenenbildung} {Neue
-  wege der wissensvermittlung: ein praxisorientiertes handbuch f{\"u}r
-  lehrpersonen im bereich der sekundarstufen i und ii (berufsschulen,
-  gymnasien) sowie in der lehrer- und erwachsenenbildung}\ (\PrintOrdinal{3.}\
+  (Berufsschulen, Gymnasien) sowie in der Lehrer- und Erwachsenenbildung}}
+  {{Neue Wege der Wissensvermittlung: ein praxisorientiertes Handbuch f{\"u}r
+  Lehrpersonen im Bereich der Sekundarstufen I und II (Berufsschulen,
+  Gymnasien) sowie in der Lehrer- und Erwachsenenbildung}}\ (\PrintOrdinal{3.}\
   \BEd).
 \newblock
 \APACaddressPublisher{}{Verlag f{\"u}r Berufsbildung, Sauerl{\"a}nder}.
@@ -123,8 +123,8 @@ Meyer, R.%
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-\APACrefbtitle {AITUS: Die f{\"u}nf Phasen im {\"U}berblick.} {Aitus: Die
-  f{\"u}nf phasen im {\"u}berblick.}
+\APACrefbtitle {{AITUS: Die f{\"u}nf Phasen im {\"U}berblick}.} {{AITUS: Die
+  f{\"u}nf Phasen im {\"U}berblick}.}
 \newblock
 \APACaddressPublisher{}{Airbowis}.
 \newblock
